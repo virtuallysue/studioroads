@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudioRoads - Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #2d1b4e 0%, #1a0f2e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .logo {
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .tagline {
+            color: #e0e0e0;
+            font-size: 0.95em;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 18px 30px;
+            margin: 15px 0;
+            background: linear-gradient(135deg, #e85d75 0%, #d94560 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(232, 93, 117, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            flex-direction: column;
+        }
+
+        .button .icon {
+            font-weight: 700;
+            font-size: 1em;
+            letter-spacing: 1px;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(232, 93, 117, 0.6);
+        }
+
+        .whatsapp {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        }
+
+        .whatsapp:hover {
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+        }
+
+        .facebook {
+            background: linear-gradient(135deg, #1877F2 0%, #0C63D4 100%);
+            box-shadow: 0 4px 15px rgba(24, 119, 242, 0.4);
+        }
+
+        .facebook:hover {
+            box-shadow: 0 6px 20px rgba(24, 119, 242, 0.6);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        .footer {
+            margin-top: 40px;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.85em;
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 2em;
+            }
+            .button {
+                font-size: 1em;
+                padding: 16px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">STUDIOROADS</div>
+        <div class="tagline">ENREGISTREMENT • VOIX • KARAOKÉ</div>
+        
+        <a href="https://wa.me/message/XD6WFCOUNGFEH1" class="button whatsapp">
+            <span class="icon">📱 WhatsApp</span>
+            <span>Renseignements et réservations : envoyez-nous un message !</span>
+        </a>
+        
+        <a href="https://www.facebook.com/studioroads" class="button facebook">
+            <span class="icon">👍 Facebook</span>
+            <span>Pour découvrir le studio et nos dernières actus, c'est par ici...</span>
+        </a>
+        
+        <div class="footer">
+            📍 Proche de Meulan (78)<br>
+            📞 06 18 63 20 23<br>
+            📧 leo.studioroads@gmail.com
+        </div>
+    </div>
+</body>
+</html>
